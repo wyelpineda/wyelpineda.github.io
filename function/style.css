@@ -1,0 +1,233 @@
+
+/* NAVBAR STYLE */
+.nav{
+    font-family: 'Bungee';
+    font-size: 15px;
+}
+/* HOME STYLE */
+.Po{
+    font-family: 'Agbalumo';
+    font-size: 25px;
+    margin-left: 150px;
+}
+.Po .hey{
+    color: #663A85;
+    font-size: 35px; 
+    margin-right: 10px;
+}
+.Pt{
+    font-family: 'Bungee';
+    color: #663A85;
+    font-size: 60px;
+}
+.Pth{
+    font-family: 'Bungee';
+    font-size: 20px;
+}
+.Pf{
+    font-family: 'Zen Loop';
+    font-size: 26px;
+    font-weight: 900;
+
+}
+.Pfv{
+    font-family: 'Bungee';
+    background-color: #663A85;
+    border: 2px solid #663A85;
+    border-radius: 30px;
+    width: 200px;
+    color: #BE9FE1;
+}
+.Pfv:hover{
+    font-family: 'Bungee';
+    border: 2px solid #BE9FE1;
+    border-radius: 30px;
+    width: 200px;
+    transition: .5s;
+    color: #700B97;
+}
+.Ps{
+    font-family: 'Bungee';
+    border: 2px solid #663A85;
+    border-radius: 30px;
+    width: 200px;
+    color: #700B97;
+}
+.Ps:hover{
+    font-family: 'Bungee';
+    background-color: #BE9FE1;
+    border-radius: 30px;
+    width: 200px;
+    color: #700B97;
+    transition: .5s;
+}
+.img1{
+    top: 240px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    top: 220px;
+    left: 590px;
+    width: 250px;
+    height: 250px;
+}
+.img3{
+    top: 270px;
+    left: 130px;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+/* ABOUT STYLE */
+.aboutbg{
+    background-color: #663A85;
+}
+.aboutname{
+    font-family: 'Bungee';
+    font-size: 50px;
+    color: #BE9FE1;
+    
+}
+.about{
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.img4{
+    right: 0;
+    width: 500px;
+    height: 100vh;
+}
+.img8{
+    left: 0;
+    width: 500px;
+    height: 100vh;
+}
+.img9{
+    top: 100px;
+    right: 300px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+/* EDUCATION STYLE */
+.bg{
+    background-color: #BE9FE1;
+}
+.educname{
+    font-family: 'Bungee';
+    font-size: 50px;
+    color: #663A85;
+}
+.educhead{
+    font-family: 'Anton';
+    font-size: 20px;
+}
+.educbody{
+    font-family: 'Arimo';
+    font-size: 20px;
+}
+.img5{
+    top: 78px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+}
+.img6{
+    top: 37px;
+    right: 380px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+/* SKILLS STYLE */
+.skillsname{
+    font-family: 'Bungee';
+    font-size: 50px;
+    color: #663A85;
+}
+.img7{
+    top: 15px;
+    right: 460px;
+    width: 100px;
+    height: 100px;
+}
+
+/* WORKS STYLE */
+.worksname{
+    font-family: 'Bungee';
+    font-size: 50px;
+    color: #663A85;
+}
+.skillsbg{
+    background-color: #663A85;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #663A85;
+    height: 10px;
+}
+.carou1{
+    font-family: 'Bungee';
+    font-weight: bold;
+    color: #663A85;
+    
+}
+.carou{
+    font-family: 'Bungee';
+    font-weight: bold;
+    color: #BE9FE1;
+    
+}
+.img10{
+    top: 130px;
+    right: 230px;
+    width: 100px;
+    height: 100px;
+}
+.img12{
+    top: 35px;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+/* CONTACTS STYLE */
+.contactsbg{
+    background-color: #BE9FE1;
+}
+.contactborder{
+    background-color: #000000;
+    border: 10px ridge black;
+}
+.contactshname{
+    
+}
+
+/* Agbalumo */
+/* Bungee */
+/* Rubik Mono One */
+/* Zen Loop */
+/* Anton */
+/* Comfortaa */
+/* Arimo */
+/* Shadows Into Light */
+/* color: #C7A5EC; */
+/* color: #663A85; */
+/* color: #BE9FE1; */

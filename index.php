@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- CSS BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!-- JS BOOTSTRAP LINK -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="/function/style.css">
+    <link rel="stylesheet" href="/function/font.css">
+    <!-- BG STYLE -->
+    <style>
+        .nav a{
+            color: black;
+            font-weight: bold;
+        }
+        
+        .nav a:hover{
+            color: purple;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid px-0 justify-content-center">
+            <div class="row" style="width: 100%;">
+                <div class="col-md-5">
+                    <a class="navbar-brand ms-5" href="#">
+                        <img src="../img/PWlogo3.png" alt="Bootstrap" width="150" height="45">
+                    </a>
+                </div>
+                <div class="col-md-7 d-flex justify-content-end">
+                    <div class="justify-content-end me-5 pt-1" id="navbarNav" >
+                    <ul class="nav nav-underline">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav" href="#">Home</a>
+                        </li>
+                        <li class="nav-item nav mx-2">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item nav mx-2">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item nav mx-2">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item nav mx-2">
+                            <a class="nav-link" href="#works">Works</a>
+                        </li>
+                        <li class="nav-item nav mx-2">
+                            <a class="nav-link" href="#contacts">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- HOME -->
+    <div class="one container-fluid position-relative px-5" style="height: 100vh;">
+    <img src="img/bg/38.png" alt="" class="img1 position-absolute">
+    <img src="img/bg/46.png" alt="" class="img2 position-absolute">
+    <img src="img/bg/28.png" alt="" class="img3 position-absolute">
+        <div class="row position-relative" style="height: 100vh;">
+            <div class="col-md-6" style="margin: auto 0 auto 0 ;" >
+                <div class="col">
+                    <p class="Po mb-0"><span class="hey">Hey!</span>It's me</p>
+                </div>
+                <div class="col text-center">
+                    <p class="Pt mb-0">Wyel.</p>
+                </div>
+                <div class="col text-center">
+                    <p class="Pth mb-0">UI/UX Designer 	&#x25CF; Developer</p>
+                </div>
+                <div class="col text-center mt-1">
+                    <p class="Pf mb-0">I am an aspiring UI/UX Designer and Developer.</p>
+                </div>
+                <div class="col text-center mt-3">
+                    <a href="#contacts" class="Pfv btn">Ask Me Questions</a>
+                    <a href="#works" class="Ps btn">See My Works</a>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-end justify-content-center px-0 mx-0">
+                <img src="img/pic4.png" alt="" style="height: 80vh;">
+            </div>
+        </div>
+    </div>
+    
+    <!-- About -->
+    <div class="aboutbg container-fluid px-5 position-relative" id="about" style="height: 100vh; " >
+    <img src="img/bg/59.png" alt="" class="img4 position-absolute">
+    <img src="img/bg/43.png" alt="" class="img8 position-absolute">
+    <img src="img/bg/23.png" alt="" class="img9 position-absolute">
+        <div class="row position-relative" style="height: 100vh;">
+            <div class="col-md-6 d-flex align-items-end justify-content-center px-0 mx-0 ">
+                <img src="img/pic1.png" alt="" style="height: 80vh;">
+            </div>
+            <div class="col-md-6 pt-5"  style="margin: auto 0 auto 0 ;" >
+                <div class="col-12">
+                    <p class="aboutname">About</p>
+                </div>
+                <div class="col pe-5">
+                    <p class="about">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You don’t understand anything until you learn it more than one way.
+                          Hi my name is <span class="name">Wyel Pineda</span>, and I am a third-year student at Bulacan State Agricultural University, 
+                          where I am pursuing a Bachelor of Science in Information Technology. 
+                          After four years of learning and studying with the course BSIT/BSCS, 
+                          I can confidently claim that I have a great passion and dedication for 
+                          designing and development. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="container-fluid text-center position-relative" id="education">
+    <img src="img/bg/58.png" alt="" class="img5 position-absolute">
+    <img src="img/bg/54.png" alt="" class="img6 position-absolute">
+        <div class="row d-flex align-items-center justify-content-center position-relative" style="height: 100vh;"  >
+            <div class="col-12 text-center" style="margin-top:50px;">
+                <p class="educname my-0">Education</p>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center px-2 mx-0 mt-1">
+                <div class="card" style="height: 30vh; width: 90%;">
+                    <div class="card-header bg py-3 px-0 d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9V160c0 70.7-57.3 128-128 128s-128-57.3-128-128V102.9L48 93.3v65.1l15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9H16c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4V86.6C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7H30.7C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/>
+                        </svg>
+                        <p class="educhead mb-0 ps-3"> Tertiary Education</p>
+                    </div>
+                    <div class="card-body  px-3 py-0">
+                        <p class="educbody mb-0">Bachelor of Science in Information Technology (BSIT)</p>
+                        <p class="educbody mb-0">Bulacan State Agricultural University</p>
+                        <p class="educbody mb-0">S.Y.: 2022 - Current</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center px-2 mx-0 mt-1">
+                <div class="card" style="height: 30vh; width: 90%;">
+                    <div class="card-header bg py-3 px-0 d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9V160c0 70.7-57.3 128-128 128s-128-57.3-128-128V102.9L48 93.3v65.1l15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9H16c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4V86.6C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7H30.7C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/>
+                        </svg>
+                        <p class="educhead mb-0 ps-3"> Tertiary Education</p>
+                    </div>
+                    <div class="card-body px-3 py-0">
+                        <p class="educbody mb-0">Bachelor of Science in Computer Science (BSCT)</p>
+                        <p class="educbody mb-0">Skill Power Institute</p>
+                        <p class="educbody mb-0">S.Y.: 2021 - 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center px-2 mx-0 mt-1">
+                <div class="card" style="height: 30vh; width: 90%;">
+                    <div class="card-header bg py-3 px-0 d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9V160c0 70.7-57.3 128-128 128s-128-57.3-128-128V102.9L48 93.3v65.1l15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9H16c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4V86.6C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7H30.7C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/>
+                        </svg>
+                        <p class="educhead mb-0 ps-3"> Secondary Education</p>
+                    </div>
+                    <div class="card-body px-3 py-0">
+                        <p class="educbody mb-0">Information and Communication Technologies (ICT)</p>
+                        <p class="educbody mb-0">San Miguel National High School</p>
+                        <p class="educbody mb-0">S.Y.: 2019 - 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center px-2 mx-0 mt-1">
+                <div class="card" style="height: 30vh; width: 90%;">
+                    <div class="card-header bg py-3 px-0 d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9V160c0 70.7-57.3 128-128 128s-128-57.3-128-128V102.9L48 93.3v65.1l15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9H16c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4V86.6C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7H30.7C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/>
+                        </svg>
+                        <p  class="educhead mb-0 ps-3"> Primary Education</p>
+                    </div>
+                    <div class="card-body px-3 py-0">
+                        <p class="educbody mb-0">Palar Intergrated School</p>
+                        <p class="educbody mb-0">San Miguel National High School</p>
+                        <p class="educbody mb-0">S.Y.: 2009 – 2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skillsbg container-fluid  position-relative d-flex align-items-center justify-content-center text-center " id="skills">
+        
+    <img src="img/bg/49.png" alt="" class="img7 position-absolute">
+    <div class="row position-relative" style="height: 100vh;" >
+            <div class="col-12 d-flex align-items-center justify-content-center" style="margin-top:50px;">
+                <p- class="skillsname text-dark">Skills</p>
+            </div>
+            <div class="col-sm-2 mx-0 px-1 mt-2">
+                <img src="img/1.png" alt="" style="height: 70vh; width: 100%;">
+            </div>
+            <div class="col-sm-2 mx-0 px-1 mt-2">
+                <img src="img/3.png" alt="" style="height: 70vh; width: 100%;">
+            </div>
+            <div class="col-sm-2 mx-0 px-1 mt-2">
+                <img src="img/5.png" alt="" style="height: 70vh; width: 100%;">
+            </div>
+            <div class="col-sm-2 mx-0 px-1 mt-2">
+                <img src="img/7.png" alt="" style="height: 70vh; width: 100%;">
+            </div>
+            <div class="col-sm-2 mx-0 px-1 mt-2">
+                <img src="img/9.png" alt="" style="height: 70vh; width: 100%;">
+            </div>
+            <div class="col-sm-2 mx-0 px-1 mt-2">
+                <img src="img/11.png" alt="" style="height: 70vh; width: 100%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Works -->
+    <div class="container-fluid text-center position-relative" id="works">
+    <img src="img/bg/27.png" alt="" class="img10 position-absolute">
+    <img src="img/bg/29.png" alt="" class="img12 position-absolute">
+        <div class="row position-relative" style="height: 100vh;" >
+            <div class="col-12 d-flex align-items-center justify-content-center" style="margin-top:50px;">
+                <p class="worksname">Works</p>
+            </div>
+            <div class="col-md-3 mx-0 " style="width: 30%;">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/fs.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="carou1 fw-bold">First Year Codings</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fs2.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fs3.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fs4.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/fs5.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/fs1.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4 mx-0" style="width: 40%;">
+                <div id="code" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#code" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#code" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#code" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#code" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#code" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#code" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/stud.png" class="d-block w-100" alt="..."style="height: 50vh;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="carou fw-bold">Current Codings</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/stud1.png" class="d-block w-100" alt="..."style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/stud2.png" class="d-block w-100" alt="..."style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/stud3.png" class="d-block w-100" alt="..."style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/stud4.png" class="d-block w-100" alt="..."style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/stud5.png" class="d-block w-100" alt="..."style="height: 50vh;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#code" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#code" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="col-md-3 mx-0"  style="width: 30%;">
+                <div id="images" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#images" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/pz1.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="carou fw-bold">Second Year Codings</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/pz2.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pz3.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pz4.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pz5.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pz6.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/pz7.png" class="d-block w-100" alt="..." style="height: 50vh;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#images" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#images" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacts -->
+    <div class="contactsbg container-fluid " id="contacts">
+        <div class="row" style="height: 100vh;" >
+            <div class="col-12 d-flex align-items-center justify-content-center" style="margin-top:50px;">
+                <p class="worksname">Contacts</p>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="row contactborder" style="width: 70%;">
+                    <div class="col-12">
+                        <p class="contactshname">Location</p>
+                        <p class="contactsname">San Agustin, San Miguel, Bulacan</p>
+                    </div>
+                    <div class="col-12">
+                        <p class="contactshname">Email</p>
+                        <p class="contactsname">wyelpineda.basc@gmail.com</p>
+                    </div>
+                    <div class="col-12">
+                        <p class="contactshname">Number</p>
+                        <p class="contactsname">09669907237</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" >
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" >
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                    <input type="submit" class="form-control" value="Contact Me" >
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
